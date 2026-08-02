@@ -4,10 +4,10 @@ A simple AI-powered Discord bot.
 
 ## Setup
 
-To get started run these camands to make a venv and install packs, run the corect one for your distro:
+To get started run one of the camands to make a venv and install the requierd packages, run the corect one for your distro:
 
 
- linux:python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
+linux:python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
 
 
 
@@ -20,7 +20,7 @@ pip install -r requirements.txt
 mac:
 python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
 
-This will create a virtual environment and install all the dependencies required to run the bot.
+
 
 ## Adding Your Discord Bot Token
 
