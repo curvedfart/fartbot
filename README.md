@@ -4,12 +4,10 @@ A simple AI-powered Discord bot.
 
 ## Setup
 
-To get started run this cammand i made:
+To get started run these camands to make a venv and install packs, run the corect one for your distro:
 
 
-
-linux:
-python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
+ linux:python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
 
 
 
