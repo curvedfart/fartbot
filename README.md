@@ -42,13 +42,9 @@ python main.py
 
 ## Using Your Own AI Model
 
-To use your own AI model, replace the default model file.
-
-replace `model.py`, which is located in the root project folder.
+To use your own AI model, replace the default model.py file.
 
 also make a folder caled model and put your .pt in there
-
-The included model is a small custom model I made a while ago and is only provided as the default example. You can replace it with your own trained model if you want to use a different AI model.
 
 ## Notes
 
