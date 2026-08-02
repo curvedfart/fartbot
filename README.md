@@ -27,7 +27,7 @@ python3 -m venv venv && source venv/bin/activate && pip install -r requirements.
 
 Before running the bot, you need to add your Discord bot token.
 
-Open `main.py` and scroll to the bottom of the file. Find this line:
+Open `main.py` and go to the bottom of the file. Find this line:
 
 client.run('your_token')
 
