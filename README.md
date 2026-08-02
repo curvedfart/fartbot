@@ -1,9 +1,52 @@
-# fartbot
-a simple ai discord bot 
-to start run this python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt that will creat a venv with teh requierd packs then run server.py and main.py also you have to add your bot token in the bottum of main.py just go to the buttom and find "client.run('your_token')" add in your token 
-and to add your own model change out the defuld model.py and ckpt.pt in the model folder that is a small model i made a while ago.
+# FartBot
 
+A simple AI-powered Discord bot.
 
+## Setup
 
+To get started, create a virtual environment and install the required packages:
 
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 
+This will create a virtual environment and install all the dependencies required to run the bot.
+
+## Adding Your Discord Bot Token
+
+Before running the bot, you need to add your Discord bot token.
+
+Open `main.py` and scroll to the bottom of the file. Find this line:
+
+client.run('your_token')
+
+Replace `your_token` with your actual Discord bot token.
+
+## Running the Bot
+
+After installing the requirements and adding your token, start the server and bot:
+
+python server.py
+python main.py
+
+## Using Your Own AI Model
+
+To use your own AI model, replace the default model files.
+
+Inside the `model` folder, replace:
+
+- `ckpt.pt`
+
+Also replace `model.py`, which is located in the root project folder.
+
+The included model is a small custom model I made a while ago and is only provided as the default example. You can replace it with your own trained model if you want to use a different AI model.
+
+## Notes
+
+Make sure your virtual environment is activated before running the bot:
+
+source venv/bin/activate
+
+Then start the server and bot normally.
+
+Enjoy using FartBot!
