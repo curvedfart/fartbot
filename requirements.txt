@@ -1,0 +1,7 @@
+aiohttp==3.14.3
+discord.py==2.7.1
+Flask==3.1.3
+Requests==2.34.2
+tiktoken==0.13.0
+torch==2.13.0
+transformers==5.14.1
