@@ -6,6 +6,14 @@ A simple AI-powered Discord bot.
 
 To get started run this cammand i made:
 
+linux:
+python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
+
+windows:
+venv\Scripts\activate
+pip install -r requirements.txt
+
+mac:
 python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
 
 This will create a virtual environment and install all the dependencies required to run the bot.
